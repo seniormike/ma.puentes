@@ -8,10 +8,10 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.list-group{
-  display:inline-block;
+.list-group {
+  display: inline-block;
 }
-.exp{
+.exp {
   height: 15vh;
   min-height: 15px;
   background-size: cover;
@@ -22,3 +22,5 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/*Va al grano, me parece bien*/
