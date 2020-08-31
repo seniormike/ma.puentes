@@ -16,7 +16,10 @@
     >
       <div class="container">
         <h1 class="navbar-brand" href="#">
-          <span class="badge badge-dark">MAPR</span>
+          <!--Esta href no refenecia a nada y h1 no deberia tener href. en caso de que se quiera que se redirija a home agregar tag a-->
+          <a href="./index.html">
+            <span class="badge badge-dark">MAPR</span>
+          </a>
         </h1>
         <button
           class="navbar-toggler"
@@ -64,100 +67,96 @@
       <div class="container bg-light">
         <h2 class="font-weight-light text text-center">Contact</h2>
 
-        
-          <p class="text-left w-responsive mx-auto mb-5">
-            If you want to contact me you can complete the following form or write to my email directly. <br>
-            Please do not hesitate to contact me! :)
-          </p>
+        <p class="text-left w-responsive mx-auto mb-5">
+          If you want to contact me you can complete the following form or write
+          to my email directly. <br />
+          Please do not hesitate to contact me! :)
+        </p>
 
-          <div class="row">
-            <div class="col-md-9 mb-md-0 mb-5">
-              <form
-                id="contact-form"
-                name="contact-form"
-                action="mail.php"
-                method="POST"
-              >
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        class="form-control"
-                      />
-                      <label for="name" class="">Your name</label>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input
-                        type="text"
-                        id="email"
-                        name="email"
-                        class="form-control"
-                      />
-                      <label for="email" class="">Your email</label>
-                    </div>
+        <div class="row">
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                    />
+                    <label for="name" class="">Your name</label>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="md-form mb-0">
-                      <input
-                        type="text"
-                        id="subject"
-                        name="subject"
-                        class="form-control"
-                      />
-                      <label for="subject" class="">Subject</label>
-                    </div>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                    />
+                    <label for="email" class="">Your email</label>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="md-form">
-                      <textarea
-                        type="text"
-                        id="message"
-                        name="message"
-                        rows="2"
-                        class="form-control md-textarea"
-                      ></textarea>
-                      <label for="message">Your message</label>
-                    </div>
-                  </div>
-                </div>
-              </form>
-              <div class="text-center text-md-left">
-                <a
-                  class="btn btn-info"
-                  >Send</a
-                >
               </div>
-              <div class="status"></div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      class="form-control"
+                    />
+                    <label for="subject" class="">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="2"
+                      class="form-control md-textarea"
+                    ></textarea>
+                    <label for="message">Your message</label>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="text-center text-md-left">
+              <a class="btn btn-info">Send</a>
             </div>
-            <div class="col-md-3 text-center">
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <i class="fas fa-map-marker-alt fa-2x"></i>
-                  <p class="font-weight-bold text-left">Bogotá, Colombia</p>
-                </li>
-
-                <li>
-                  <i class="fas fa-phone mt-4 fa-2x"></i>
-                  <p class="text-left">+57 313 000 000</p>
-                </li>
-
-                <li>
-                  <i class="fas fa-envelope mt-4 fa-2x"></i>
-                  <p class="text-left">ma.puentes@uniandes.edu.co</p>
-                </li>
-              </ul>
-            </div>
+            <div class="status"></div>
           </div>
-        
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <p class="font-weight-bold text-left">Bogotá, Colombia</p>
+              </li>
+
+              <li>
+                <i class="fas fa-phone mt-4 fa-2x"></i>
+                <p class="text-left">+57 313 000 000</p>
+              </li>
+
+              <li>
+                <i class="fas fa-envelope mt-4 fa-2x"></i>
+                <p class="text-left">ma.puentes@uniandes.edu.co</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
     <hr />
@@ -191,8 +190,20 @@
         © 2020 Copyright - Developed by Miguel Puentes
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -16,7 +16,10 @@
     >
       <div class="container">
         <h1 class="navbar-brand" href="#">
-          <span class="badge badge-dark">MAPR</span>
+          <!--Esta href no refenecia a nada y h1 no deberia tener href. en caso de que se quiera que se redirija a home agregar tag a-->
+          <a href="./index.html">
+            <span class="badge badge-dark">MAPR</span>
+          </a>
         </h1>
         <button
           class="navbar-toggler"
@@ -120,6 +123,7 @@
       </div>
     </section>
     <hr />
+    <!--Revisar como pegar el footer al fondo de la pagina de forma que cuando la pantalla sea mas pequeña este no quede flotando-->
     <footer class="page-footer font-small bg-light pt-4">
       <div class="container text-center text-md-left">
         <div class="row">
@@ -150,8 +154,20 @@
         © 2020 Copyright - Developed by Miguel Puentes
       </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
