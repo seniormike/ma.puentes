@@ -1,5 +1,3 @@
-/* El código css esta bien y tiene nombres significativos */
-
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -22,5 +20,8 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-/*Va al grano, me parece bien*/
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
