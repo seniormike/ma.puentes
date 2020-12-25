@@ -38,12 +38,12 @@
               <a class="nav-link" href="./index.html">Home </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="./experience.html"
-                >Experience <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="./experience.html">Experience </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./projects.html">Projects</a>
+              <a class="nav-link" href="./projects.html"
+                >Projects<span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">Contact</a>
@@ -65,73 +65,211 @@
 
     <section class="pt-1">
       <div class="container bg-light">
-        <h2 class="font-weight-light text text-center">Experience</h2>
-        <div class="text-center">
-          <ul class="list-group">
-            <li class="list-group-item d-flex align-items-center">
-              Systems Engineering Internship
-              <div class="px-3">
-                <span class="badge badge-pill badge-dark">Bogotá</span>
-                <span class="badge badge-pill badge-danger">6 Months</span>
-                <span class="badge badge-primary badge-primary"
-                  >Aplicaciones S.A.S</span
-                >
+        <h2 class="font-weight-light text-center py-1">Experience</h2>
+        <div class="container">
+          <!-- Collapsable -->
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <h5>Systems Engineering Internship</h5>
+                    <div class="px-3">
+                      <span class="badge badge-pill badge-dark">Bogotá</span>
+                      <span class="badge badge-pill badge-danger"
+                        >6 Months</span
+                      >
+                      <span class="badge badge-primary badge-primary"
+                        >Aplicaciones S.A.S</span
+                      >
+                    </div>
+                  </button>
+                </h2>
               </div>
-            </li>
-            <li class="list-group-item d-flex align-items-center">
-              Tutor in programming subjects
-              <div class="px-3">
-                <span class="badge badge-pill badge-dark">Bogotá</span>
-                <span class="badge badge-pill badge-danger">+3 years</span>
-                <span class="badge badge-primary badge-warning"
-                  >Universidad de los Andes</span
-                >
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Professional Internship in Systems Engineering (6 Months). As
+                  a backend architect on AWS and mobile app developer on Kotlin
+                  for Android devices in a private company that develop mobile
+                  applications that propose new ways of making transactions and
+                  payments.
+                </div>
               </div>
-            </li>
-            <li class="list-group-item d-flex align-items-center">
-              Advertising and logistics
-              <div class="px-3">
-                <span class="badge badge-pill badge-dark">Bogotá</span>
-                <span class="badge badge-pill badge-danger">+2 years</span>
-                <span class="badge badge-primary badge-warning"
-                  >Universidad de los Andes</span
-                >
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    <h5>Tutor in programming subjects</h5>
+                    <div class="px-3">
+                      <span class="badge badge-pill badge-dark">Bogotá</span>
+                      <span class="badge badge-pill badge-danger"
+                        >+4 years</span
+                      >
+                      <span class="badge badge-primary badge-warning"
+                        >Universidad de los Andes</span
+                      >
+                    </div>
+                  </button>
+                </h2>
               </div>
-            </li>
-            <li class="list-group-item d-flex align-items-center">
-              Graphic Design
-              <div class="px-3">
-                <span class="badge badge-pill badge-dark">Bogotá</span>
-                <span class="badge badge-pill badge-danger">+1 years</span>
-                <span class="badge badge-primary badge-info"
-                  >Personal-Interests</span
-                >
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  - More than 4 years of experience helping students in Java
+                  programming subjects. <br />
+                  - More than 1 year of experience helping students in Python
+                  programming subjects.
+                </div>
               </div>
-            </li>
-            <li class="list-group-item d-flex align-items-center">
-              Programming on Iot Technologies
-              <div class="px-3">
-                <span class="badge badge-pill badge-dark">Bogotá</span>
-                <span class="badge badge-pill badge-danger">6 Months</span>
-                <span class="badge badge-primary badge-success"
-                  >Research project</span
-                >
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    <h5>Advertising and logistics</h5>
+                    <div class="px-3">
+                      <span class="badge badge-pill badge-dark">Bogotá</span>
+                      <span class="badge badge-pill badge-danger"
+                        >+2 years</span
+                      >
+                      <span class="badge badge-primary badge-warning"
+                        >Universidad de los Andes</span
+                      >
+                    </div>
+                  </button>
+                </h2>
               </div>
-            </li>
-          </ul>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  As a tutor and manager of advertising strategies and logistics
+                  for a small student project that offers help and advice in
+                  Systems and Computer Engineer subjects.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    <h5>Programming on Iot Technologies</h5>
+                    <div class="px-3">
+                      <span class="badge badge-pill badge-dark">Bogotá</span>
+                      <span class="badge badge-pill badge-danger">+1 year</span>
+                      <span class="badge badge-primary badge-success"
+                        >Research project</span
+                      >
+                    </div>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  As a developer, designer and architect in a research project
+                  based on how technologies can generate environmental
+                  awareness. Interactivity in prototypes that use technologies
+                  based on the Internet of Things (IoT).
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-block text-left collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                  >
+                    <h5>Graphic Design</h5>
+                    <div class="px-3">
+                      <span class="badge badge-pill badge-dark">Bogotá</span>
+                      <span class="badge badge-pill badge-danger">+1 year</span>
+                      <span class="badge badge-primary badge-info"
+                        >Personal-Interests</span
+                      >
+                    </div>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFive"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Como diseñador de diferentes piezas gráficas como posters,
+                  logos, tarjetas, hojas de vida y mockups de interfaces para
+                  páginas web y aplicaciones móviles utilizando herramientas de
+                  Adobe como Illustrator y Photoshop.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
     <hr />
-    <!--Quizá queda mejor dejar el footer abajo del todo-->
-    <footer class="page-footer font-small bg-light pt-4 fixed-bottom">
+
+    <footer class="page-footer font-small bg-light pt-4">
       <div class="container text-center text-md-left">
         <div class="row">
           <div class="col-md-4 mx-auto">
             <h1 class="navbar-brand">
               <span class="badge badge-dark">MAPR</span>
             </h1>
-
             <p>Professional website designed and developed by Miguel Puentes</p>
           </div>
           <hr class="clearfix w-100 d-md-none" />
